@@ -1,0 +1,7 @@
+# ConfigMap
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config-map
+data:
+  NAME: "melone"
